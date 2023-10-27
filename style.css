@@ -1,0 +1,38 @@
+#logoimg {
+    display: inline-block;
+    height: 50px;
+    width: auto;
+    margin-left: 75px;
+}
+
+h1,
+nav {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: 15px;
+    margin-left: 0px;
+    color: #0bb111;
+}
+
+nav {
+    margin-left: 350px;
+}
+
+ul {
+    display: inline;
+    border: 5px solid;
+    padding-left: 0px;
+}
+
+li,
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+li {
+    padding: 10px;
+    margin: 0px 10px;
+    font-size: 20px;
+}
