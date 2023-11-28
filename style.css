@@ -1,0 +1,74 @@
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+nav,
+.logo,
+.navcon,
+.container {
+  display: flex;
+}
+
+.logo,
+.navcon {
+  height: 60px;
+  padding: 12px;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  background-color: aqua;
+  gap: 10px;
+}
+
+.navcon {
+  flex: auto;
+  gap: 20px;
+  background-color: aquamarine;
+  padding-left: 50px;
+}
+
+.logoitem {
+  align-items: center;
+}
+
+.logoimg {
+  height: 50px;
+  width: auto;
+}
+
+.logoname {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#wagha {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 60px 25px;
+  border: 3px black solid;
+}
+
+.artimg {
+  height: 300px;
+}
+
+a {
+  color: black;
+  font-size: 25px;
+}
